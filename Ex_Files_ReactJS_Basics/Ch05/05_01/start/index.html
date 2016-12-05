@@ -67,6 +67,20 @@
                       notes: []
                   }
               },
+                nextId(){
+                  this.uniqueId = this.uniqueId || 0
+                  return this.uniqueId++
+                },
+              add(text) {
+                 var notes = [
+                  ...this.state.notes,
+                      {
+                        id: this.nextId(),
+                        note: text
+                      }
+                 ]
+                 this.setState({notes})
+              },
               update(newText, id) {
                 var notes = this.state.notes.map(
                   note => (note.id !== id) ?
@@ -90,6 +104,7 @@
               render() {
                   return (<div className='board'>
                       {this.state.notes.map(this.eachNote)}
+      <button onClick={() => this.add()}>+<button>
                       </div>)
               }
           })
