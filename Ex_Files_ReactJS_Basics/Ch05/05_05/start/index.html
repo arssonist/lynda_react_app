@@ -30,7 +30,7 @@
         ReactDOM.render(<Box/>, document.getElementById('react-container'))
 
         var getRidOfBox = document.getElementById('myDiv')
-        getRidOfBox.onclick = function(){
+          getRidOfBox.onclick = function(){
           ReactDOM.unmountComponentAtNode(document.getElementById('react-container'))
           alert('component is unmounted')
         }
