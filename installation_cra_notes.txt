@@ -1,0 +1,21 @@
+Note you may need to manually remove /etc/rvmrc and ~/.rvmrc if they exist still.
+Please check all .bashrc .bash_profile .profile and .zshrc for RVM source lines and delete or comment out if this was a Per-User installation.
+Also make sure to remove `rvm` group if this was a system installation.
+Finally it might help to relogin / restart if you want to have fresh environment (like for installing RVM again).`
+
+
+
+
+
+/Users/chrisdielschnieder/.npm-packages/bin/create-react-app -> /Users/chrisdielschnieder/.npm-packages/lib/node_modules/create-react-app/index.js
+
+/Users/chrisdielschnieder/.npm-packages/lib
+
+
+Make sure that /usr/local/bin is in your $PATH.
+
+I am applying for a junior position. I would like to emphasize that I expect to be paid according to my very limited experience, which makes me a great bargain. And even though my scores below are bad, not knowing PHP, etc, I know rails and could learn PHP.
+
+See https://dashboard.heroku.com/apps/hidden-beach-16599
+And https://arssonist.github.io/business-card-maker/
+And https://arssonist.github.io/lynda_react_app/
